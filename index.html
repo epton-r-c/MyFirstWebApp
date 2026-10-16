@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hello World</title>
     </head>
     <style>
@@ -27,23 +28,30 @@
     img {
         display: block;
         margin: auto;
+        max-width:100%;
+        height:auto;
+    }
+    .content {
+        padding: 20px;
+        max-width:100%;
     }
     </style>
 
     <body>
-        <h1><ins>Hello World!</ins></h1>
-        <h2>This is my first web app.</h2>
-        <br>
-        <p>I have learnt how to use different font styles, sizes and colours.</p>
-        <br>
-        <p>I can also embed <a href="https://www.google.com">hyperlinks</a> into a sentence.</p>
-        <br>
-        <hr>
-        <h2>About Me</h2>
-        <p>My name is Rachel and I am a <del>Maths Teacher</del> <ins>Computer Science Student</ins>.</p>
-        <p>I have two dogs called <strong>Ragnar</strong> and <em>Lagertha</em>.<br>Here is a picture of them.</p>
+        <div class="content">
+            <h1><ins>Hello World!</ins></h1>
+            <h2>This is my first web app.</h2>
+                <br>
+                <p>I have learnt how to use different font styles, sizes and colours.</p>
+                <br>
+                <p>I can also embed <a href="https://www.google.com">hyperlinks</a> into a sentence.</p>
+                <br>
+            <hr>
+            <h2>About Me</h2>
+                <p>My name is Rachel and I am a <del>Maths Teacher</del> <ins>Computer Science Student</ins>.</p>
+                <p>I have two dogs called <strong>Ragnar</strong> and <em>Lagertha</em>.<br>Here is a picture of them.</p>
         
         <img src="Dogs.JPG" width="40%" alt="Rachel and her two dogs">
-
+        </div>
     </body>
 </html>
