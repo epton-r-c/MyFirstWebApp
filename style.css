@@ -28,9 +28,10 @@ p {
     }
 img {
     display: block;
-    x-margin: auto, 30px;
+    margin: auto;
     max-width: 100%;
     height: auto;
+    padding: 0, 0, 0, 30px;
     }
 form {
     display: block;
