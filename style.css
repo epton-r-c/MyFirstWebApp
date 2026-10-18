@@ -1,6 +1,4 @@
-main{
-    display: grid;
-}
+
 header {
     background-color: grey;
     padding: 10px;
@@ -68,11 +66,12 @@ button {
     margin:auto;
     }
 section {
-    display: flex;
+    display: block;
     max-width: auto;
     max-height: 600px ;
     }
 article {
+    display:block;
     float: left;
     padding: 20px;
     width: 50%;
