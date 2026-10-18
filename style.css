@@ -65,6 +65,18 @@ button {
     display: block;
     margin:auto;
     }
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: mediumturquoise;
+  padding: 5px;
+  gap: 5px;
+}
+.container div {
+  background-color: mediumturquoise;
+  display: block;
+  text-align: center;
+}
 section {
     display: block;
     max-width: 100%;
