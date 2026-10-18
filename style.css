@@ -66,13 +66,13 @@ button {
 section {
     display: flex;
     max-width: auto;
-    max-height: 900px;
+    height: 900px;
     }
 article {
     float: left;
     padding: 20px;
     width: 50%;
-    height: 900px;
+    height: 850px;
     background-color: mediumturquoise;
     }
 
