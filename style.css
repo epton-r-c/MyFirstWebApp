@@ -67,10 +67,8 @@ button {
     }
 .container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   background-color: mediumturquoise;
-  padding: 5px;
-  gap: 5px;
 }
 .container div {
   background-color: mediumturquoise;
