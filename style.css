@@ -75,6 +75,10 @@ button {
     margin:auto;
     }
 
+button:hover {
+  background-color: grey;
+}
+
 .container {
   display: grid;
   grid-template-columns: 50% 50%;
