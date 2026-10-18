@@ -1,6 +1,6 @@
 
 header {
-    background-color: grey;
+    background-color: gray;
     padding: 10px;
     margin-bottom: 10px;
     }
@@ -76,7 +76,7 @@ button {
     }
 
 button:hover {
-  background-color: grey;
+  background-color: gray;
 }
 
 .container {
