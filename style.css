@@ -29,7 +29,6 @@ p {
 img {
     display: block;
     margin: auto;
-    max-width:100%;
     margin-bottom:30px;
     }
 form {
@@ -66,13 +65,13 @@ button {
 section {
     display: flex;
     max-width: auto;
-    height: 900px;
+    max-height: 900px;
     }
 article {
     float: left;
     padding: 20px;
     width: 50%;
-    max-height: 100%;
+    height: auto;
     background-color: mediumturquoise;
     }
 
