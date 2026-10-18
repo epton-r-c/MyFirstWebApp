@@ -29,6 +29,8 @@ p {
 img {
     display: block;
     margin: auto;
+    max-width: 25%;
+    height: auto;
     margin-bottom:30px;
     }
 form {
