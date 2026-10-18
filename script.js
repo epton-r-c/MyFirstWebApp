@@ -37,7 +37,7 @@ fetch(url)
         const rain = data.current.rain;
         const html = `<p><strong>Temperature:</strong> ${temp}&deg;C</p>
                       <p><strong>Wind Speed:</strong> ${wind} km/h</p>
-                      <p><strong>Rain:</strong> ${rain} mm</p>`
+                      <p><strong>Rain in the last hour:</strong> ${rain} mm</p>`
                       ;
       document.getElementById("weather").innerHTML = html;
       })
