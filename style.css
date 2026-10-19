@@ -53,6 +53,17 @@ form {
     box-sizing: border-box; 
     }
 
+input[type=submit] {
+    font-family: Calibri; 
+    font-size: 24; 
+    color: blueviolet;
+    display: block;
+    margin:auto;
+    }
+input[type=submit]:hover {
+    background-color: rgb(42, 42, 42);
+    }
+
 button {
     font-family: Calibri; 
     font-size: 24; 
